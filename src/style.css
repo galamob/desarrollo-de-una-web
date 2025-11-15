@@ -1,13 +1,46 @@
-html {
-  color-scheme: light dark;
-  font-family: system-ui;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
+html, body {
+  margin: 0;
+  padding: 0;
+  height: auto;
+  font-family: system-ui, sans-serif;
+  color: #000;
+  background-color: #fff;
+  display: block;
 }
 
-h1 {
-  color: hotpink;
-  font-family: cursive;
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  color: azure;
+  background-color: lightcoral;
+  max-height: 200px;
+  height: 30%;
+}
+
+footer {
+  color: azure;
+  background-color: lightcoral;
+  max-height: 200px;
+  height: 30%;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #0077cc;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ff6600;
 }
