@@ -9,11 +9,18 @@
     <script type="module" src="app.js"></script>
   </head>
   <body>
+    <div class="avionSvg">
+      <include src="src/fondoAviones.html"></include>
+    </div>
     <div class="container">
       <include src="src/header.html"></include>
       <div class="articulo">
         <h1>Empezar a viajar</h1>
-        <img src="images/travel1.jpg" alt="travel">
+        <picture>
+          <source media="(max-width: 500px)" srcset="images/travelCut.jpg"/>
+          <source media="(min-width: 501px)" srcset="images/travel1920.jpg"/>
+          <img src="images/travel1920.jpg" alt="Viajes"/>
+        </picture>
         <h2>Bienvenido a tu aventura</h2>
         <p>Si siempre has soñado con viajar pero no sabes por dónde empezar,
           estás en el lugar correcto. Aquí encontrarás consejos prácticos,

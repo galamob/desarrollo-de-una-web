@@ -8,17 +8,23 @@
     <script type="module" src="app.js"></script>
   </head>
   <body>
+    <div class="avionSvg">
+      <include src="src/fondoAviones.html"></include>
+    </div>
     <div class="container">
       <include src="src/header.html"></include>
       <div class="articulo">
         <h1>Montaña</h1>
-        <img src="images/montana.jpg" alt="travel">
+        <img srcset="images/montana640.jpg 1x, images/montana1920.jpg 2x" sizes="(max-width: 500px) 100vw, 40vw" src="images/montana1920.jpg" alt="Montaña"/>
         <h2>Respira aire puro y explora la montaña</h2>
         <p>Si te apasiona la naturaleza, el senderismo y las vistas que quitan el aliento,este espacio es para ti.
           Aquí encontrarás rutas, consejos y experiencias para disfrutar de la montaña de manera segura y emocionante.
           Prepárate para caminar entre cumbres, descubrir paisajes increíbles y conectar con la tranquilidad del entorno natural.</p>
       </div>
       <include src="src/footer.html"></include>
+    </div>
+        <div id="gif-carga">
+      <img src="images/world.gif" alt="world">
     </div>
   </body>
 </html>

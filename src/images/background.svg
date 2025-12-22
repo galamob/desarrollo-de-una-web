@@ -1,0 +1,7 @@
+<svg class="avion" viewBox="0 0 100 50" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <line x1="10" y1="25" x2="80" y2="25" />
+  <line x1="40" y1="25" x2="25" y2="10" />
+  <line x1="40" y1="25" x2="25" y2="40" />
+  <line x1="80" y1="25" x2="90" y2="15" />
+  <line x1="80" y1="25" x2="90" y2="35" />
+</svg>

@@ -8,11 +8,14 @@
     <script type="module" src="app.js"></script>
   </head>
   <body>
+    <div class="avionSvg">
+      <include src="src/fondoAviones.html"></include>
+    </div>
     <div class="container">
       <include src="src/header.html"></include>
       <div class="articulo">
         <h1>Playa</h1>
-        <img src="images/playa.jpg" alt="travel">
+        <img src="images/playa1920.jpg" srcset="images/playa640.jpg 640w, images/playa1920.jpg 1920w" sizes="(max-width: 500px) 100vw, 40vw" alt="Playa"/>
         <h2>Sol, arena y aventuras junto al mar</h2>
         <p>Descubre cómo sacar el máximo provecho a tus escapadas playeras.
           Desde playas paradisíacas hasta consejos prácticos para disfrutar del sol,
@@ -20,6 +23,9 @@
           Prepárate para sentir la brisa, escuchar las olas y vivir experiencias inolvidables junto al océano.</p>
       </div>
       <include src="src/footer.html"></include>
+    </div>
+        <div id="gif-carga">
+      <img src="images/world.gif" alt="world">
     </div>
   </body>
 </html>

@@ -8,6 +8,10 @@ html, body {
   display: block;
 }
 
+body {
+  background: url("images/background.svg") center / cover no-repeat;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -40,8 +44,14 @@ footer {
     margin-bottom: 0px;
   }
   img {
-    width: 40%;
-    padding: 10px 0px 20px 0px;
+    width: 50%;
+    margin: 10px 0px 20px 0px;
+    border-radius: 10px;
+  }
+  picture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
@@ -125,4 +135,42 @@ nav a:hover {
 #gif-carga.show {
   opacity: 1;
   pointer-events: all;
+}
+
+.avionSvg {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.2;
+  z-index: -1;
+  .avion {
+    position: absolute;
+    width: 120px;
+    stroke: #4aa3df; /* azul celeste */
+    stroke-width: 3;
+    fill: none;
+
+    animation: volar 6s linear infinite;
+  }
+  
+  .a1 { top: 10%; animation-delay: 0s; }
+  .a2 { top: 25%; animation-delay: 2s; }
+  .a3 { top: 40%; animation-delay: 0s; }
+  .a4 { top: 55%; animation-delay: 2s; }
+  .a5 { top: 70%; animation-delay: 0s; }
+}
+
+@keyframes volar {
+  from {
+    transform: translateX(-150px);
+  }
+  to {
+    transform: translateX(110vw);
+  }
+}
+
+@media (max-width: 500px) {
+  .articulo img {
+    width: 100%;
+  }
 }

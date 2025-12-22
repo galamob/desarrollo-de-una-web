@@ -10,7 +10,8 @@
     "@parcel/transformer-posthtml": "^2.16.1",
     "parcel": "^2.16.1",
     "posthtml-doctype": "^1.1.1",
-    "posthtml-include": "^2.0.1"
+    "posthtml-include": "^2.0.1",
+    "sharp": "^0.34.5"
   },
   "dependencies": {
     "grunt-autoprefixer": "^3.0.4",
