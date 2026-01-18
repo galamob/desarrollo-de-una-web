@@ -167,3 +167,14 @@ nav a:hover {
     transform: translateX(110vw);
   }
 }
+
+@media (max-width: 500px) {
+  .articulo .montana {
+    width: 100%;
+    height: 100%;
+  }
+
+  #gif-carga img {
+    width: 340px;
+  }
+}
