@@ -3,8 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web para los amantes de los viajes">
     <title>Categorías - Empezar a viajar</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/avion.webp" />
     <script type="module" src="app.js"></script>
   </head>
   <body>
@@ -15,7 +17,7 @@
       <include src="src/header.html"></include>
       <div class="articulo">
         <h1>Montaña</h1>
-        <img srcset="images/montana640.jpg 1x, images/montana1920.jpg 2x" sizes="(max-width: 500px) 100vw, 40vw" src="images/montana1920.jpg" alt="Montaña"/>
+        <img srcset="images/montana640.webp 1x, images/montana1920.webp 2x" sizes="(max-width: 500px) 100vw, 40vw" src="images/montana1920.webp" fetchpriority="high" alt="Montaña" height="640" width="960"/>
         <h2>Respira aire puro y explora la montaña</h2>
         <p>Si te apasiona la naturaleza, el senderismo y las vistas que quitan el aliento,este espacio es para ti.
           Aquí encontrarás rutas, consejos y experiencias para disfrutar de la montaña de manera segura y emocionante.
@@ -24,7 +26,7 @@
       <include src="src/footer.html"></include>
     </div>
         <div id="gif-carga">
-      <img loading="lazy" src="images/world.gif" alt="world">
+      <img loading="lazy" src="images/world.gif" alt="world" height="190" width="340">
     </div>
   </body>
 </html>
